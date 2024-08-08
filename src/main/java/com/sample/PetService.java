@@ -14,10 +14,12 @@ public class PetService {
         if(type.equals(PetType.DOG)){
         	breeds.add("Labradar");
         	breeds.add(("Pommarenian"));
+        	breeds.add(("Pommarenian-1"));
 
         }else if(type.equals(PetType.CAT)){
         	breeds.add("Black");
         	breeds.add("White");
+        	breeds.add("brown");
 
         }else if(type.equals(PetType.PARROT)){
         	breeds.add("Australian");
